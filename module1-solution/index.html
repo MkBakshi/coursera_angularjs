@@ -12,11 +12,12 @@
     <div class="container" ng-controller="LunchCheckController">
 	    <h1>Lunch Checker</h1>
 	    <div class="form-group">
-	    	<!--This input will not consider the empty items, so feel free to add empty items also-->
+	    	
         <input id="lunch-menu" type="text"
 		       placeholder="list comma separated dishes you usually have for lunch"
            class="form-control"
            ng-model="lunchMenu">
+           Note: This input will not consider the empty items, so feel free to test empty items also.
       </div>
 	    <div class="form-group">
         <button class="btn btn-default" ng-click="checkMenu()">Check If Too Much</button>
