@@ -25,7 +25,7 @@ function ShoppingListCheckOffService() {
   var service = this;
   
   // list of items to buy
-  var buyItems = [{name : 'Cookies', quantity : '4 bags'},{name : 'Chips', quantity : '2 bags'},{name : 'Soft Drink', quantity : '5 bottles'},{name : 'Chocolates', quantity : '4 packs'},{name : 'Muffins', quantity : '2 packs'}];
+  var buyItems = [{name : 'Mangoes', quantity : '4'},{name : 'Bananas', quantity : '6'},{name : 'Oranges', quantity : '2'},{name : 'Watermelons', quantity : '2'},{name : 'Grapes', quantity : '3'}];
   
   // list of bought items
   var boughtItems = [];
